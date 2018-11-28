@@ -1,2 +1,2 @@
 # HorizontSpaceGame
-Project for laboratories with programming
+Project for programming laboratories
