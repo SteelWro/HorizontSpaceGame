@@ -7,6 +7,7 @@ public class Asteroid : MonoBehaviour {
     Rigidbody2D rb;
     public HPController hpC;
     public GameObject asteroidS;
+    public ParticleSystem ps;
 
     
 
@@ -37,12 +38,10 @@ public class Asteroid : MonoBehaviour {
 
     void Die()
     {
-        int a = Random.Range(2, 6);
-
-        for (int i = 0; i < a; i++)
-        {
-            Instantiate(asteroidS, transform.position, transform.rotation);
-        }
+             
+        Instantiate(asteroidS, transform.position + new Vector3(-0.25f, 0), transform.rotation);
+        Instantiate(asteroidS, transform.position + new Vector3(0.25f, 0), transform.rotation);
+        Instantiate(ps, transform.position, transform.rotation);
 
         Destroy(gameObject);
     }

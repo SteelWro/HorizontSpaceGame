@@ -7,6 +7,9 @@ TagManager:
   - Bullet
   - ManuText
   - Tower
+  - Ctrl
+  - Star
+  - Camera
   layers:
   - Default
   - TransparentFX
@@ -16,9 +19,9 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
+  - Background
+  - Game
+  - Player
   - 
   - 
   - 

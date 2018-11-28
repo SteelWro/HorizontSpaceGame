@@ -81,9 +81,9 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1574421621927064}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.97892755, y: 1.0583, z: 1.0583}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4811594446956982}
   m_RootOrder: 0
@@ -147,14 +147,13 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.07064659, y: 0.26238075}
-      - {x: 0.08013082, y: 0.2630185}
-      - {x: -0.2743961, y: 0.24201874}
+    - - {x: 0.016146578, y: 0.32657403}
+      - {x: -0.26020175, y: 0.22675955}
+      - {x: -0.32619336, y: -0.039809715}
       - {x: -0.24945505, y: -0.28260174}
+      - {x: -0.0025952982, y: -0.34363768}
       - {x: 0.29397225, y: -0.28260198}
-      - {x: 0.3467942, y: -0.06999597}
-      - {x: 0.4776741, y: -0.0107492935}
-      - {x: 0.35263857, y: 0.05898586}
+      - {x: 0.36407623, y: 0.0013108959}
       - {x: 0.3011064, y: 0.22287667}
 --- !u!114 &114265248476842972
 MonoBehaviour:
@@ -169,7 +168,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   player: {fileID: 0}
-  Towerbullet: {fileID: 0}
+  Towerbullet: {fileID: 1319050181680974, guid: 82ceaa76e75390344bb7850131c3e9d7,
+    type: 2}
 --- !u!114 &114485651959256776
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -262,7 +262,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 02ab9d8933c4f644f8df1b9c97f5b9df, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
