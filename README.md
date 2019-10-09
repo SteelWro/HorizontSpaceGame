@@ -10,4 +10,4 @@ Cel gry:
 
 Do zrobienia:
 - gra nie ma granic i po pewnym momencie kończy sie generowanie asteroid i przeciwników, przestrzeń jest pusta
-- zbudowanie gry do uruchomienia i udostępnienie publiczne
+- zbudowanie gry do uruchomienia w środowisku Windows i udostępnienie publiczne
