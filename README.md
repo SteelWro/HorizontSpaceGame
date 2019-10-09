@@ -12,3 +12,4 @@ Do zrobienia:
 - gra nie ma granic i po pewnym momencie kończy sie generowanie asteroid i przeciwników, przestrzeń jest pusta
 - zbudowanie gry do uruchomienia w środowisku Windows i udostępnienie publiczne
 
+![Alt text](/Horizon/screen.png "Optional Title")
