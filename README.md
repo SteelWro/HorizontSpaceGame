@@ -5,7 +5,7 @@ Gra 2d wykonana w środowisku Unity
 
 
 Cel gry:
--poruszanie się statkiem kosmicznym i zdobycie jak największego score przez nisczenie ruszających się przeciwników, stacjonarnych wierzyczek i przetrwanie jak najdłuższy czas.
+- poruszanie się statkiem kosmicznym i zdobycie jak największego score przez nisczenie ruszających się przeciwników, stacjonarnych wierzyczek i przetrwanie jak najdłuższy czas.
 
 
 Do zrobienia:
